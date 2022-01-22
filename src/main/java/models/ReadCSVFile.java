@@ -1,4 +1,4 @@
-/*package models;
+package models;
 
 
 import au.com.bytecode.opencsv.CSVReader;
@@ -45,10 +45,10 @@ public class ReadCSVFile {
 
     //public void ReadCSVFile{
 
-    //public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
 
-            /*String fileCSV = "data/credentials.csv";
-            //try {
+            String fileCSV = "data/credentials.csv";
+            try {
             List<Credentials> beans = new CsvToBeanBuilder(new FileReader(fileCSV))
                     .withType(Credentials.class)
                     .build()
@@ -61,8 +61,9 @@ public class ReadCSVFile {
 
 
     }
+}
 
-    String fileCSV = "data/credentials.csv";
+    /*String fileCSV = "data/credentials.csv";
 
     public static void main(String[] args) throws Exception {
         System.out.println();
